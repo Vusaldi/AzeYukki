@@ -96,7 +96,7 @@ def start_pannel():
                     text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Qrupu", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -114,7 +114,7 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Məni öz qrupuna əlavə et",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/LuksMusicbot?startgroup=true",
                 )
             ],
         ]
@@ -129,12 +129,12 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Məni öz qrupuna əlavə et",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/LuksMusicbot?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Qrupu", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -149,7 +149,7 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Məni öz qrupuna əlavə et",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/LuksMusicbot?startgroup=true",
                 )
             ],
             [
@@ -169,7 +169,7 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Məni öz qrupuna əlavə et",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/LuksMusicbot?startgroup=true",
                 )
             ],
             [
@@ -177,7 +177,7 @@ def private_panel():
                     text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Qrupu", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
