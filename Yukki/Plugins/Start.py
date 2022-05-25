@@ -99,7 +99,7 @@ async def useradd(_, message: Message):
     await asyncio.gather(
         message.delete(),
         message.reply_text(
-            f"Məni {message.chat.title}-çatınıza əlavə etdiyiniz üçün təşəkkür edirəm.\n{MUSIC_BOT_NAME}aktivdir.\n\nSöhbət Qrupumuz @texnoteamchat.",
+            f"Məni {message.chat.title}-çatınıza əlavə etdiyiniz üçün təşəkkür edirəm.\n{MUSIC_BOT_NAME}aktivdir.\n\nSupport Qrupumuz @NeonSUP.",
             reply_markup=InlineKeyboardMarkup(out[1]),
         ),
     )
@@ -133,7 +133,7 @@ async def okaybhai(_, CallbackQuery):
     await CallbackQuery.answer("Geri qayıt...")
     out = start_pannel()
     await CallbackQuery.edit_message_text(
-        text=f"Məni {CallbackQuery.message.chat.title}-çatınıza əlavə etdiyiniz üçün təşəkkür edirəm🥰.\n{MUSIC_BOT_NAME} aktivdir.\n\nSöhbət Qrupumuz @texnoteamchat.",
+        text=f"Məni {CallbackQuery.message.chat.title}-çatınıza əlavə etdiyiniz üçün təşəkkür edirəm🥰.\n{MUSIC_BOT_NAME} aktivdir.\n\nSupport Qrupumuz @NeonSUP.",
         reply_markup=InlineKeyboardMarkup(out[1]),
     )
 
